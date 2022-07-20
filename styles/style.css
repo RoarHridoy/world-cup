@@ -4,11 +4,11 @@
 body {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .container {
 
-    width: 1280px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,9 @@ body {
     background-color: #161616;
     color: white;
     padding: 20px 50px;
+    width: 90%;
+    border-radius: 30px;
+
 
 
 
@@ -25,21 +28,27 @@ body {
 .top {
     display: flex;
 
-
+    margin: auto;
 
 }
 
 .top-banner {
-    margin-top: 80px;
-    margin-bottom: 10px;
+    width: 50%;
+    margin: auto;
+    /* margin-top: 80px; */
+    /* margin-bottom: 10px; */
+}
 
+.top-banner img {
 
+    width: 70%;
 
 }
 
 .heading {
 
-    font-size: 50px;
+    font-size: 70px;
+    margin: auto;
 
 
 }
@@ -58,83 +67,137 @@ body {
     background-color: orange;
 }
 
-
-
-
-
 .font-icon {
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    gap: 40px;
 
+}
+
+.timing {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 /* second part  */
-
-.contract {
-    text-decoration: none;
-    border: 1px solid gray;
-    padding: 0 15px;
-}
-
-.blog {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-
-}
-
 .overview {
     display: flex;
-    width: 1280px;
+    /* width: 1280px; */
     column-gap: 30px;
     margin: 0 auto;
     justify-content: space-between;
     text-align: center;
 }
 
-.form {
-    width: 25%;
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-bottom: 30px;
 }
 
+.match-recap img {
+    width: 100%;
+}
 
-.form>ul>li {
-
-    list-style: none;
+.match-overview {
+    border: 1px solid gray;
+    border-radius: 18px;
 
 }
 
-ul>li>a {
+.match-summery {
+    width: 85%;
+    margin: auto;
+}
+
+.blog-headline {
+
+    text-align: start;
+}
+
+.contract {
+    width: 30%;
+
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.contract>a {
+    text-decoration: none;
+
+}
+
+/* leftpart */
+.left-designing {
+
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px;
+    background-color: black;
+    padding: 30px;
+
+    font-weight: 600;
+
+}
+
+.button {
+    background-color: white;
+    color: black;
+
+}
+
+.blog-button {
+    background-color: red;
+
+}
+
+.blog-button>a {
     text-decoration: none;
 }
 
-.left-designing>li>a {
+.blog-button p {
+    color: white;
 
-    border: 1px solid black;
-    display: block;
-    font-size: 30px;
-    padding: 20px;
+
 }
 
-.blogs {
-    width: 75%;
+.button>a {
+    text-decoration: none;
+
 }
 
-.lower {
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
+    height: 300px;
     background-color: #161616;
     color: white;
 }
 
+.caption {
+    text-align: center;
+    font-size: 2rem;
+}
+
 .view {
-    text-decoration: none;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
-.view>li>a {
-    list-style: none;
+.view>p>a {
+    text-decoration: none;
 }
 
 .orange {
