@@ -8,7 +8,7 @@ body {
 
 .container {
 
-    width: 1140px;
+    width: 1280px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -30,17 +30,11 @@ body {
 }
 
 .top-banner {
-
-    width: 50%;
     margin-top: 80px;
     margin-bottom: 10px;
 
 
 
-}
-
-.top-banner img {
-    width: 80%;
 }
 
 .heading {
@@ -92,11 +86,15 @@ body {
 
 .overview {
     display: flex;
-    width: 1140px;
+    width: 1280px;
     column-gap: 30px;
     margin: 0 auto;
     justify-content: space-between;
     text-align: center;
+}
+
+.form {
+    width: 25%;
 }
 
 
@@ -116,7 +114,30 @@ ul>li>a {
     display: block;
     font-size: 30px;
     padding: 20px;
+}
 
+.blogs {
+    width: 75%;
+}
 
+.lower {
+    width: 100%;
+    background-color: #161616;
+    color: white;
+}
 
+.view {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.view>li>a {
+    list-style: none;
+}
+
+.orange {
+    list-style: none;
+    color: beige;
 }
