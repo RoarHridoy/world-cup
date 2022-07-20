@@ -86,7 +86,7 @@ body {
     /* width: 1280px; */
     column-gap: 30px;
     margin: 0 auto;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     text-align: center;
 }
 
@@ -203,4 +203,19 @@ body {
 .orange {
     list-style: none;
     color: beige;
+}
+
+/* website part  */
+.sechdule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.competition {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
 }
