@@ -1,0 +1,122 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: #161616;
+    color: white;
+    padding: 20px 50px;
+
+
+
+}
+
+.top {
+    display: flex;
+
+
+
+}
+
+.top-banner {
+
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.top-banner img {
+    width: 80%;
+}
+
+.heading {
+
+    font-size: 50px;
+
+
+}
+
+.top-details {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.watch {
+    background-image: linear-gradient (orange, aqua);
+    font-size: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: orange;
+}
+
+
+
+
+
+.font-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+/* second part  */
+
+.contract {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 0 15px;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.overview {
+    display: flex;
+    width: 1140px;
+    column-gap: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.form>ul>li {
+
+    list-style: none;
+
+}
+
+ul>li>a {
+    text-decoration: none;
+}
+
+.left-designing>li>a {
+
+    border: 1px solid black;
+    display: block;
+    font-size: 30px;
+    padding: 20px;
+
+
+
+}
