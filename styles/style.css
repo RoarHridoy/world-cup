@@ -146,6 +146,14 @@ body {
 
 }
 
+.bonus {
+    display: none;
+    text-align: center;
+    justify-content: center;
+    color: red;
+    border-radius: 5px;
+}
+
 .button {
     background-color: white;
     color: black;
@@ -205,6 +213,13 @@ body {
     color: beige;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    column-gap: 20px;
+}
+
 /* website part  */
 .sechdule {
     display: flex;
@@ -226,4 +241,54 @@ body {
     border: 1px solid gray;
     border-radius: 12px;
     margin-bottom: 20px;
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+    .overview {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .top {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .blog {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .competition {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .top-banner {
+        width: 100%;
+    }
+
+    .top-banner img {
+        width: 100%;
+    }
+
+    .bonus {
+        display: block;
+    }
+
+
+    .view {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .competition {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
